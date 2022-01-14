@@ -4,7 +4,7 @@
 
 The folder structure in this repository is as followed: </br>
 1. Folder "data" contains: all the required input csv files and a batch file to import bulk data files to postgresql database called _copydata.bat_
-2. Folder "EmployeeSQL" contains: exported DB tables structure, Entity Relationshp Diagram (ERD), Postgresql server username & password _postgresql_keys.py_, _Employee_sql_final.sql_ and Jupyter notebook _bonus_final.ipynb_ for the bonus section.
+2. Folder "EmployeeSQL" contains: QuickDBD exported DB tables structure, Entity Relationshp Diagram (ERD), Postgresql server username & password _postgresql_keys.py_, _Employee_sql_final.sql_ and Jupyter notebook _bonus_final.ipynb_ for the bonus section.
 
 **_Notes:_** </br>
   - File _"postgresql_keys.py"_: needs to be updated with the relevant postpressql server user name and password 
