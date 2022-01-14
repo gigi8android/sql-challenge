@@ -4,12 +4,7 @@
 
 The folder structure in this repository is as followed: </br>
 1. Folder "data" contains: all the required input csv files and a batch file to import bulk data files to postgresql database called _copydata.bat_
-2. Folder "EmployeeSQL" contains: 
-    - DB tables structure: _QuickDBD-tables.rtf_ and _QuickDBD Tables.txt_ 
-    - Entity Relationshp Diagram (ERD): _QuickDBD-ERD.png_
-    - Postgresql server username & password: _postgresql_keys.py_
-    - Main sql file contains all queries for this homework: _Employee_sql_final.sql_
-    - Jupyter notebook for the bonus section: _bonus_final.ipynb_
+2. Folder "EmployeeSQL" contains: exported DB tables structure, Entity Relationshp Diagram (ERD), Postgresql server username & password _postgresql_keys.py_, _Employee_sql_final.sql_ and Jupyter notebook _bonus_final.ipynb_ for the bonus section.
 
 **_Notes:_** </br>
   - File _"postgresql_keys.py"_: needs to be updated with the relevant postpressql server user name and password 
@@ -19,16 +14,15 @@ The folder structure in this repository is as followed: </br>
 
 ## Initial set-up:
 
-a. Update files: _postgresql_keys.py_ and _copydata.bat_ with the relevant postgresql server user name and password </br>
+a. Update file _postgresql_keys.py_ with the relevant postgresql server username and password and file _copydata.bat_ with the server's password </br>
 b. In pgAdmin, open file _Employee_sql_final.sql_ and execute the queries as per the embedded comments/instructions </br>
 c. In Jupyter notebook/lab, open file _bonus_final.ipynb_, restart the kernel and execute codes from the top. 
 
 ## Data analysis:
 
-Execute queries & codes in the following files: Employee_sql_final.sql and bonus_final.ipynb. </br>
-Refer to the embeded comments, output and graphs to address the followings data analysis queries:
+Refer to the embeded comments, output and graphs in files _Employee_sql_final.sql_ and _bonus_final.ipynb_ to address the followings data analysis queries:
 
-1. POSTGESSQL queries:
+1. POSTGRESQL queries:
     * List the following details of each employee: employee number, last name, first name, sex, and salary.
     * List first name, last name, and hire date for employees who were hired in 1986.
     * List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
