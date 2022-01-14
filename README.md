@@ -3,24 +3,25 @@
 ## Homework submission:
 
 The folder structure in this repository is as followed: </br>
-1. Folder "data" contains: all the required input csv files and a batch file to import bulk data files to postgresql database called "copydata.bat"
+1. Folder "data" contains: all the required input csv files and a batch file to import bulk data files to postgresql database called _copydata.bat_
 2. Folder "EmployeeSQL" contains: 
-    - DB tables structure: QuickDBD-tables.rtf & QuickDBD Tables.txt 
-    - Entity Relationshp Diagram (ERD): QuickDBD-ERD.png
-    - Postgressql server username & password: postgresql_keys.py
-    - Main sql file contains all queries for this homework: Employee_sql_final.sql
-    - Jupyter notebook for the bonus section: bonus_final.ipynb
+    - DB tables structure: _QuickDBD-tables.rtf_ and _QuickDBD Tables.txt_ 
+    - Entity Relationshp Diagram (ERD): _QuickDBD-ERD.png_
+    - Postgresql server username & password: _postgresql_keys.py_
+    - Main sql file contains all queries for this homework: _Employee_sql_final.sql_
+    - Jupyter notebook for the bonus section: _bonus_final.ipynb_
 
-**_Notes:
-  - File "postgresql_keys.py": needs to be updated with the relevant postpressql server user name and password 
-  - Batch file "copydata.bat": needs to be updated with the relevant postpressql server password
-  - When importing the csv datafiles to the server for the first time, it's important to import the files in the order as listed in the file copydata.bat or Employee_sql_final.sql. Otherwise the data won't be imported to the tables appropriately due to the established relationships between the tables.
-  - The csv data files can be manually imported via pgAdmin or bulk import via batch file copydata.bat
+**_Notes:_** </br>
+  - File _"postgresql_keys.py"_: needs to be updated with the relevant postpressql server user name and password 
+  - Batch file _"copydata.bat"_: needs to be updated with the relevant postpressql server password
+  - When importing the csv datafiles to the server for the first time, it's important to import the files in the order as listed in the file _copydata.bat_ or _Employee_sql_final.sql_. Otherwise the data won't be imported to the tables appropriately due to the established relationships between the tables.
+  - The csv data files can be manually imported via pgAdmin or bulk import via batch file _copydata.bat_
 
 ## Initial set-up:
 
-a. Update files: "postgresql_keys.py" and "copydata.bat" with the relevant postgressql server user name and password </br>
-b. 
+a. Update files: _postgresql_keys.py_ and _copydata.bat_ with the relevant postgresql server user name and password </br>
+b. In pgAdmin, open file _Employee_sql_final.sql_ and execute the queries as per the embedded comments/instructions </br>
+c. In Jupyter notebook/lab, open file _bonus_final.ipynb_, restart the kernel and execute codes from the top. 
 
 ## Data analysis:
 
