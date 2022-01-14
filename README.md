@@ -8,8 +8,8 @@ The folder structure in this repository is as followed: </br>
 
 **_Notes:_** </br>
   - The database name is: _Employees_db_
-  - File _"postgresql_keys.py"_: needs to be updated with the relevant postpresql server user name and password 
-  - Batch file _"copydata.bat"_: needs to be updated with the relevant postpresql server password
+  - File _"postgresql_keys.py"_: needs to be updated with the relevant postgresql server user name and password 
+  - Batch file _"copydata.bat"_: needs to be updated with the relevant postgresql server password
   - When importing the csv datafiles to the server for the first time, it's important to import the files in the order as listed in the file _copydata.bat_ or _Employee_sql_final.sql_. Otherwise the data won't be imported to the tables appropriately due to the established relationships between the tables.
   - The csv data files can be manually imported via pgAdmin or bulk import via batch file _copydata.bat_
   - Tables structure and ERD are created by using QuickDBD https://app.quickdatabasediagrams.com/#/
