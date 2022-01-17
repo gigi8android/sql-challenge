@@ -4,7 +4,7 @@
 
 The folder structure in this repository is as followed: </br>
 1. Folder "data" contains: all the required input csv files and a batch file to import bulk data files to postgresql database called _copydata.bat_
-2. Folder "EmployeeSQL" contains: QuickDBD exported DB tables structure, Entity Relationship Diagram (ERD), Postgresql server username & password _postgresql_keys.py_, _Employee_sql_final_ and Jupyter notebook _bonus_final.ipynb_ for the bonus section.
+2. Folder "EmployeeSQL" contains: QuickDBD exported DB tables structure, Entity Relationship Diagram (ERD), Postgresql server username & password _postgresql_keys.py_, _Employee_sql_final_ and Jupyter notebook _Bonus_final.ipynb_ for the bonus section.
 
 **_Notes:_** </br>
   - The database name is: _Employees_db_
@@ -18,13 +18,13 @@ The folder structure in this repository is as followed: </br>
 
 a. Update file _postgresql_keys.py_ with the relevant postgresql server username and password and file _copydata.bat_ with the server's password </br>
 b. In pgAdmin, open file _Employee_sql_final.sql_ and execute the queries as per the embedded comments/instructions </br>
-c. In Jupyter notebook/lab, open file _bonus_final.ipynb_, restart the kernel and execute codes from the top. 
+c. In Jupyter notebook/lab, open file _Bonus_final.ipynb_, restart the kernel and execute codes from the top. 
 
 ## Data analysis:
 
-Refer to the embeded comments, output and graphs in files _Employee_sql_final.sql_ and _bonus_final.ipynb_ to address the followings data analysis queries:
+Refer to the embeded comments, output and graphs in files _Employee_sql_final.sql_ and _Bonus_final.ipynb_ to address the followings data analysis queries:
 
-1. POSTGRESQL queries:
+1. POSTGRESQL queries (refer to _Employee_sql_final_):
     * List the following details of each employee: employee number, last name, first name, sex, and salary.
     * List first name, last name, and hire date for employees who were hired in 1986.
     * List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
@@ -35,7 +35,7 @@ Refer to the embeded comments, output and graphs in files _Employee_sql_final.sq
     * In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
     * Epilogue: show details of employee ID number 499942.
 
-2. Bonus section:
+2. Bonus section (refer to _Bonus_final.ipynb_):
     * Create a histogram to visualize the most common salary ranges for employees.
     * Create a bar chart of average salary by title.
     * Epilogue: show details of employee ID number 499942.
